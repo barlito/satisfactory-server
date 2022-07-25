@@ -1,0 +1,6 @@
+### IDE
+.idea
+
+### Server files
+config/*
+!config/.gitkeep
