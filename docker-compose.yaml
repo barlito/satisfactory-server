@@ -4,7 +4,6 @@ services:
     container_name: 'satisfactory-server'
     image: 'wolveix/satisfactory-server:latest'
     hostname: 'satisfactory-server'
-    user: "1000:1000"
     ports:
       - '7777:7777/udp'
       - '15000:15000/udp'
