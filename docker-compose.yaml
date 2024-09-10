@@ -11,9 +11,8 @@ services:
     volumes:
       - './config:/config'
     environment:
-      - AUTOPAUSE=false
+      - AUTOPAUSE=true
       - MAXPLAYERS=4
       - PGID=1000
       - PUID=1000
-      - STEAMBETA=true
     restart: unless-stopped
